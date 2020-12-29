@@ -4,7 +4,7 @@ homepage: "https://github.com/NathanReb/dune-cinaps-arm32"
 bug-reports: "https://github.com/NathanReb/dune-cinaps-arm32/issues"
 depends: [
   "dune" {>= "2.7"}
-  "cinaps" {with-test}
+  "cinaps" {>= "v0.12.1" & with-test}
   "odoc" {with-doc}
 ]
 build: [

@@ -7,6 +7,6 @@
 
 (package
   (name dune-cinaps-arm32)
-  (depends (cinaps :with-test)))
+  (depends (cinaps (and (>= "v0.12.1") :with-test))))
 
 (using cinaps 1.0)
